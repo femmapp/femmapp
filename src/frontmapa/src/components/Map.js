@@ -2,6 +2,10 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import styles from "./Map.module.css";
 
+/* import { useEffect, useState } from "react";
+import axios from "axios";
+import api from "../globalapi"; */
+
 export const Map = () => {
   return (
     <div className={styles.mapbox}>

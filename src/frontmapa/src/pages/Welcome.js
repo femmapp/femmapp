@@ -23,7 +23,7 @@ export default function Welcome() {
             color="text.primary"
             gutterBottom
           >
-            WELCOME TO EMPOWERMAP
+            WELCOME TO CONSCIOUS MAP
           </Typography>
           <Typography
             variant="h5"
