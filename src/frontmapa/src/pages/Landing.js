@@ -1,7 +1,14 @@
+import Navbar from "../components/Navbar";
+import styles from "./Landing.module.css";
+
 function Landing() {
   return (
     <>
-      <h1>MAPA</h1>
+      <Navbar />
+      <div id="map"></div>
+      <div className={styles.mapbox}>
+        <div id="map"></div>
+      </div>
     </>
   );
 }

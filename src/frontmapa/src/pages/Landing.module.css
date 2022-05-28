@@ -1,0 +1,27 @@
+.mapbox {
+  margin-top: 20px;
+  background: radial-gradient(
+    circle,
+    rgba(228, 241, 232, 0.28166915052160957) 41%,
+    rgba(223, 233, 225, 0.30849478390461993) 45%,
+    rgba(244, 240, 240, 0.8194444444444444) 75%,
+    rgba(254, 255, 255, 1) 90%
+  );
+  box-shadow: none;
+  border-radius: 0;
+  height: 416px;
+  width: 290px;
+  margin: auto;
+  display: none;
+}
+
+/* .mapiframe {
+  margin-top: 20px;
+  width: 290px;
+  border: 48px solid t;
+  border-radius: 0;
+  height: 368px;
+  position: relative;
+  z-index: -1;
+}
+ */
