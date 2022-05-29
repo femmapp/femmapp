@@ -1,11 +1,11 @@
-from Value import Value
-
-__num_categories = 11
+from src.back.Value import Value
 
 class Pin:
     """
     Class that represents a pin in the application map. It has a 
     """
+
+    __num_categories = 11
 
     @property
     def id(self):
@@ -49,7 +49,7 @@ class Pin:
         if (self._author_id == id):
             self._latitude, self._longitude = latitude, longitude
     
-    def __init__(self, id, name, description, author_id, attributes=[[0,0] * __num_categories], latitude, longitude):
+    def __init__(self, id, name, description, author_id, latitude, longitude, attributes=[[0] * 2 ] * __num_categories):
         self._id = id
         self._name = name
         self._description = description
@@ -59,7 +59,7 @@ class Pin:
         self._longitude = longitude
 
     def __getitem__(self, id):
-        if id < __num_categories:
+        if id < 11:
             return self._attributes[key]
         else:
             return None

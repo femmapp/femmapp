@@ -3,3 +3,4 @@ geopy
 pyproj
 pandas
 flask
+Levenshtein
