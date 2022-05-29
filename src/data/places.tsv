@@ -1,10 +1,9 @@
-Id	Name	Author_Id	Categories	Latitude	Longitude	Description
-0	Jardí de la Julieta	0	[[1,1],[0,0],[1,1],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.4336692	2.1856281	Jardí autogestionat al barri de Sant Andreu on fan moltes activitats
-1	Canòdrom	1	[[0,0],[1,1],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.4275103	2.1833535	Espai municipal relacionat amb la sobirania tecnològica
-2	Ovante Hamburgueseria y Tapas	1	[[1,1],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.4300509	2.1805223	Hamburgueseria amb cambiador de bebe
-3	El Triangle Centre Comercial	0	[[1,1],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.3858792	2.1669276	Centre comercial amb cambiador de bebe
-4	La Nena Cafeteria	0	[[1,1],[0,0],[1,1],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.4026489	2.1258409	Cafeteria amigable amb jocs de taula
-5	El Racó del'Opa	0	[[1,1],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.4201559	2.1779789	Bar de tapes
-6	Àrea de Drets Socials Justícia Global, Feminismes i LGTBI	1	[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[1,1],[0,0]]	41.39722263	2.169302913	Àrea de Drets Socials Justícia Global, Feminismes i LGTBI
-7	Prova random	1	[[1, 1], [0, 0], [1, 1], [2, 8], [1, 1], [0, 0], [1, 1], [0, 0], [1, 1], [1, 1], [0, 0]]	41.40722263	2.169302913	Una descripció
-8	Prova random	1	[[1, 1], [0, 0], [0, 0], [0, 0], [1, 1], [1, 1], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]	41.40722263	2.169302913	Una descripció
+Id	Name	Author	Categories	Latitude	Longitude	Description
+0	Jardí de la Julieta	onaonaona	[[4,2],[0,0],[26,3],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.4336692	2.1856281	Jardí autogestionat al barri de Sant Andreu on fan moltes activitats
+1	Canòdrom	mayururu	[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[105,2],[0,0],[42,1],[0,0]]	41.4275103	2.1833535	Espai municipal relacionat amb la sobirania tecnològica
+2	Ovante Hamburgueseria y Tapas	jimementa	[[5,2],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.4300509	2.1805223	Hamburgueseria amb cambiador de bebe
+3	El Triangle Centre Comercial	sylbeth	[[123,17],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.3858792	2.1669276	Centre comercial amb cambiador de bebe
+4	La Nena Cafeteria	ledita	[[78,4],[0,0],[43,2],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.4026489	2.1258409	Cafeteria amigable amb jocs de taula
+5	El Racó del'Opa	pamboli	[[22,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]	41.4201559	2.1779789	Bar de tapes
+6	Àrea de Drets Socials Justícia Global, Feminismes i LGTBI	mayururu	[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[322,23],[0,0]]	41.39722263	2.169302913	Àrea de Drets Socials Justícia Global, Feminismes i LGTBI
+7	La divina	onaonaona	[[0, 0], [0, 0], [0, 0], [0, 0], [13, 0], [0, 0], [0, 0], [0, 0], [0, 0], [1, 0], [0, 0]]	41.43210014403358	2.186437413279751	Bar agradable on fer unes braves
