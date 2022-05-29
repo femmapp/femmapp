@@ -11,13 +11,14 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+//import AdbIcon from "@mui/icons-material/Adb";
+import { SvgIcon } from "@mui/material";
 
 const pages = [
   "Lugares Inclusivos",
   "Baby friendly",
   "Salud consciente",
-  "REPORTA",
+  "Red flag",
 ];
 const settings = ["Perfil", "Añadir", "Logout"];
 
@@ -40,11 +41,32 @@ const ResponsiveAppBar = () => {
     setAnchorElUser(null);
   };
 
+  /*   function HomeIcon(props) {
+    return (
+      <SvgIcon {...props}>
+        <path
+          d="M607.43293,390.64713l22.03165-9.8763.00089-.0004a15.3873,15.3873,0,0,1,20.33383,7.74694l.20451.45627-36.07222,16.17022Z"
+          width="24px"
+          height="24px"
+        />
+      </SvgIcon>
+    );
+  } */
+
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{ backgroundColor: "#6b5b95" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <Box
+            component="img"
+            sx={{
+              height: 24,
+              width: 24,
+            }}
+            alt="logo"
+            src={"../../public/img/logo.png"}
+          />
+
           <Typography
             variant="h6"
             noWrap
@@ -60,7 +82,7 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            CONSCIOUS MAP
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -99,7 +121,10 @@ const ResponsiveAppBar = () => {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          <SvgIcon
+            src={"./../../public/img/logo.svg"}
+            sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
+          />
           <Typography
             variant="h5"
             noWrap
@@ -116,14 +141,14 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            CONSCIOUS MAP
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ my: 2, color: "white", display: "block" }} //color buttons
               >
                 {page}
               </Button>

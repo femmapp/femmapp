@@ -5,7 +5,6 @@ function Landing() {
   return (
     <>
       <Navbar />
-
       <Map />
     </>
   );
