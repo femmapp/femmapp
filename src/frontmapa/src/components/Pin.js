@@ -7,7 +7,7 @@ export default function Pin({ place }) {
   return (
     <Marker position={[place.Latitude, place.Longitude]}>
       <Popup>
-        <CheckboxesGroup title={place.Name} />
+        <CheckboxesGroup place={place} />
       </Popup>
     </Marker>
   );
