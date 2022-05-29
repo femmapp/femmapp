@@ -2,7 +2,7 @@ from src.back.Pin import Pin
 from src.back.pin_manager import create_new_pin as create, review_pin as review, unreview_pin as unreview
 
 def main():
-    lista  = [True, False, True, True, True, False, True, False, True, True, False]
+    lista  = [0, 4, 5]
     create("Prova random", 1, lista, 41.40722263, 2.169302913, "Una descripció")
     review(7, 3, True)
     review(7, 3, False)
