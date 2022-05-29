@@ -1,0 +1,67 @@
+{
+  "places": [
+    {
+      "Id": 0,
+      "Name": "Jardí de la Julieta",
+      "Author_Id": 0,
+      "Categories": [
+        [1, 1],
+        [0, 0],
+        [1, 1],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]
+      ],
+      "Latitude": 41.433669200000004,
+      "Longitude": 2.1856281,
+      "Description": "Jardí autogestionat al barri de Sant Andreu on fan moltes activitats"
+    },
+    {
+      "Id": 1,
+      "Name": "Canòdrom",
+      "Author_Id": 1,
+      "Categories": [
+        [0, 0],
+        [1, 1],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]
+      ],
+      "Latitude": 41.427510299999994,
+      "Longitude": 2.1833535,
+      "Description": "Espai municipal relacionat amb la sobirania tecnològica"
+    },
+    {
+      "Id": 2,
+      "Name": "Ovante Hamburgueseria y Tapas",
+      "Author_Id": 1,
+      "Categories": [
+        [1, 1],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]
+      ],
+      "Latitude": 41.4300509,
+      "Longitude": 2.1805223,
+      "Description": "Hamburgueseria amb cambiador de bebe"
+    }
+  ]
+}
