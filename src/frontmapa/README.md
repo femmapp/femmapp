@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Requirements frontend:
+
+[axios] `npm i axios`
+[MUI] `npm i @mui/material`
+[Leaflet] `react-leafle`
+[router] `react-router-dom`
 
 ## Available Scripts
 
