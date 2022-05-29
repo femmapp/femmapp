@@ -7,7 +7,7 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 //import FormHelperText from "@mui/material/FormHelperText";
 import Checkbox from "@mui/material/Checkbox";
 
-export default function CheckboxesGroup() {
+export default function CheckboxesGroup({ place }) {
   const [state, setState] = React.useState({
     cambiador: true,
     zona_lactancia: false,
@@ -41,7 +41,7 @@ export default function CheckboxesGroup() {
   return (
     <Box sx={{ display: "flex" }}>
       <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
-        <FormLabel component="legend">Canodrom</FormLabel>
+        <FormLabel component="legend">{place.Name}</FormLabel>
         <FormGroup>
           <FormControlLabel
             control={
@@ -104,6 +104,7 @@ export default function CheckboxesGroup() {
             label="Espacio Infantil"
           />
         </FormGroup>
+        <FormLabel component="legend">{place.Description}</FormLabel>
       </FormControl>
     </Box>
   );
