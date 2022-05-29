@@ -4,20 +4,20 @@ import FormLabel from "@mui/material/FormLabel";
 import FormControl from "@mui/material/FormControl";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
-import FormHelperText from "@mui/material/FormHelperText";
+//import FormHelperText from "@mui/material/FormHelperText";
 import Checkbox from "@mui/material/Checkbox";
 
 export default function CheckboxesGroup() {
   const [state, setState] = React.useState({
     cambiador: true,
     zona_lactancia: false,
-    espacio_infantil: false,
-    canguraje: true,
+    espacio_infantil: true,
+    canguraje: false,
     accesible_ruedas: true,
-    baño_mixto: false,
+    baño_mixto: true,
     baño_lavamanos: true,
     LGTBQ_friendy: true,
-    ginecologia: true,
+    ginecologia: false,
     psicologia: false,
     red_flag: false,
   });
@@ -37,20 +37,11 @@ export default function CheckboxesGroup() {
     accesible_ruedas,
     baño_mixto,
   } = state;
-  const error =
-    [
-      cambiador,
-      zona_lactancia,
-      espacio_infantil,
-      canguraje,
-      accesible_ruedas,
-      baño_mixto,
-    ].filter((v) => v).length !== 2;
 
   return (
     <Box sx={{ display: "flex" }}>
       <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
-        <FormLabel component="legend">Categorias</FormLabel>
+        <FormLabel component="legend">Canodrom</FormLabel>
         <FormGroup>
           <FormControlLabel
             control={
@@ -61,6 +52,16 @@ export default function CheckboxesGroup() {
               />
             }
             label="Cambiador"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={zona_lactancia}
+                onChange={handleChange}
+                name="zona_lactancia"
+              />
+            }
+            label="Zona de lactancia"
           />
           <FormControlLabel
             control={
@@ -82,50 +83,27 @@ export default function CheckboxesGroup() {
             }
             label="Baño mixto"
           />
-        </FormGroup>
-        <FormHelperText>Be careful</FormHelperText>
-      </FormControl>
-      <FormControl
-        required
-        error={error}
-        component="fieldset"
-        sx={{ m: 3 }}
-        variant="standard"
-      >
-        <FormLabel component="legend">Pick two</FormLabel>
-        <FormGroup>
           <FormControlLabel
             control={
               <Checkbox
-                checked={cambiador}
+                checked={accesible_ruedas}
                 onChange={handleChange}
-                name="cambiador"
+                name="accesible_ruedas"
               />
             }
-            label="Cambiador"
+            label="Accesible ruedas"
           />
           <FormControlLabel
             control={
               <Checkbox
-                checked={canguraje}
+                checked={espacio_infantil}
                 onChange={handleChange}
-                name="canguraje"
+                name="espacio_infantil"
               />
             }
-            label="Canguraje"
-          />
-          <FormControlLabel
-            control={
-              <Checkbox
-                checked={baño_mixto}
-                onChange={handleChange}
-                name="Baño mixto"
-              />
-            }
-            label="Baño mixto"
+            label="Espacio Infantil"
           />
         </FormGroup>
-        <FormHelperText>You can display an error</FormHelperText>
       </FormControl>
     </Box>
   );

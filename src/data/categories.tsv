@@ -1,4 +1,12 @@
-Id  Name  Theme
-0  Cambiador  Bebè
-1  Lavabo mixte  Espai segur
-2  Espai accessible  ?
+Id	Name
+0  Cambiador de bebé
+1  Zona de lactancia
+2  Espacio de juegos
+3  Canguraje
+4  Espacio accesible
+5  Ginecología (Sanidad consciente)
+6  Psicología (Sanidad consciente)
+7  Baño mixto
+8  Baño con pica
+9  Espacio LGBTQ+ friendly
+10  Red Flag
