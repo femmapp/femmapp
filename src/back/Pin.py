@@ -1,4 +1,4 @@
-from Value import Value
+from src.back.Value import Value
 
 class Pin:
     """

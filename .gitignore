@@ -1,1 +1,4 @@
 .replit
+.replit(js)
+**.pyc
+.breakpoints
