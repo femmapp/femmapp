@@ -3,7 +3,7 @@ import CheckboxesGroup from "./Checkbox";
 import React from "react";
 
 export default function Pin({ place }) {
-  console.log(place);
+  //console.log(place);
   return (
     <Marker position={[place.Latitude, place.Longitude]}>
       <Popup>
